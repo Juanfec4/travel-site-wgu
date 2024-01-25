@@ -1,0 +1,38 @@
+[
+  { "target": "/", "text": "Home" },
+  {
+    "target": "/travel-guide",
+    "text": "Travel Guide",
+    "children": [
+      { "target": "/travel-guide#for-explorers", "text": "For Explorers" },
+      { "target": "/travel-guide#relaxing-days", "text": "Relaxing Days" },
+      { "target": "/travel-guide#family-retreats", "text": "Family Retreats" }
+    ]
+  },
+  {
+    "target": "/hotels",
+    "text": "Hotels",
+    "children": [
+      { "target": "/hotels#local-hotels", "text": "Local Hotels" },
+      { "target": "/hotels#resorts", "text": "Resorts" },
+      { "target": "/hotels#bundles", "text": "Bundles" }
+    ]
+  },
+  {
+    "target": "/food",
+    "text": "Food",
+    "children": [
+      { "target": "/restaurants#local-food", "text": "Local Food" },
+      { "target": "/restaurants#international", "text": "International Food" },
+      { "target": "/restaurants#groceries", "text": "Groceries" }
+    ]
+  },
+  {
+    "target": "/transportation",
+    "text": "Transportation",
+    "children": [
+      { "target": "/transportation#international-transport", "text": "Arrive to Taniti" },
+      { "target": "/transportation#local-transport", "text": "Ground Transit" }
+    ]
+  }
+]

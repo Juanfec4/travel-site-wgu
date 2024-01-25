@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layout-sizing {
+  @apply max-w-6xl mx-auto;
+}
+
+.glass {
+  @apply bg-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10;
+}
+
+.opaque {
+  @apply brightness-75;
+}
+
+.section-title {
+  @apply mt-8 mb-4 text-3xl font-signika font-thin;
+}
+
+.page-title {
+  @apply mt-8 mb-4 text-5xl font-signika font-semibold text-teal-950 text-center;
+}
+
+* {
+  @apply font-signika;
+}
+
+::selection {
+  @apply bg-teal-200/50 text-black;
+}
