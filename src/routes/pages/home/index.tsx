@@ -86,7 +86,7 @@ const HomePage: FC = () => {
       <section className="my-16">
         <CallToAction
           title="Embark on Your Tropical Escape"
-          text="Discover a world where tranquility meets adventure, and every moment is a canvas of serenity. Your paradise awaits – immerse yourself in the ultimate getaway."
+          text="Not decided yet? Give us a call +502 (750) 234-111, we'll help you book the perfect trip."
           button={
             <SecondaryButton
               text="Explore Now"
