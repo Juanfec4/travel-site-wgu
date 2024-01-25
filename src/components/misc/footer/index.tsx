@@ -35,6 +35,7 @@ const Footer: FC = () => {
         </ul>
       </FooterCard>
       <FooterCard title="Connect">
+        <p className="pb-2">Phone: +502 (750) 234-111</p>
         <div className="flex gap-2">
           <IconBrandInstagram className="cursor-pointer hover:text-teal-400 transition duration-200" />
           <IconBrandAirbnb className="cursor-pointer hover:text-teal-400 transition duration-200" />
